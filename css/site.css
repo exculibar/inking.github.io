@@ -1,0 +1,166 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, STKaiti, "楷体","楷体_GB2312", AR PL UKai CN, serif;
+  font-size: 20px;
+  color: #333;
+}
+
+nav.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  padding-right: 20px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+nav.navigation a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav.navigation .logo {
+  font-size: 30px;
+  background-color: #333;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+}
+
+nav.navigation .logo a {
+  color: #fff;
+}
+
+nav.navigation ul.links {
+  margin: 0;
+  display: flex;
+}
+
+nav.navigation ul.links li {
+  list-style: none;
+}
+
+nav.navigation ul.links li a {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+nav.navigation ul.links li a.active, nav.navigation ul.links li a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.container {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 100px - 60px);
+}
+
+.container .post {
+  padding: 20px 0;
+  line-height: 1.8;
+}
+
+.container .post h1.title {
+  font-size: 34px;
+}
+
+.container .post .meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .post .tags a.tag {
+  color: #999;
+  margin-right: 10px;
+}
+
+.container .post .datetime {
+  color: #999;
+}
+
+.container .post article {
+  padding-top: 24px;
+}
+
+.list {
+  padding-top: 20px;
+}
+
+.list h1.title {
+  font-size: 30px;
+}
+.list h1.title a {
+  color: #333;
+  text-decoration: none;
+}
+.list h1.title a:hover {
+  text-decoration: underline;
+}
+
+.list .item {
+  margin-bottom: 30px;
+  border-bottom: 1px dotted #e3e3e3;
+  padding-bottom: 30px;
+}
+.list .item:last-child {
+  border-bottom: 1px dotted #fff;
+}
+
+.list .item .meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list .item .meta .tags span {
+  margin-right: 10px;
+}
+
+.list .item .meta .tags .tag {
+  color: #999;
+  margin-right: 10px;
+}
+
+.list .item .meta .datetime {
+  color: #999;
+}
+
+.footer {
+  background-color: #333;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+code {
+  background-color: #333;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  border: 5px solid #ccc;
+  font-size: 16px;
+}
+
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: 5px solid #ccc;
+}
+
+pre code {
+  border: 0;
+}
